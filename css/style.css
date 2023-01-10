@@ -1,0 +1,254 @@
+:root {
+    --cor-de-fundo: #0F0D13;
+    --cor-de-fundo-dos-players: #2A2141;
+    --cor-da-fonte: #E1E1E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    width: 1037px;
+    height: 631px;
+    left: 0;
+    top: 0;
+    background-color: var(--cor-de-fundo);
+    border-radius: 8px 8px 0 0;
+}
+
+.frame1,
+.frame2,
+.frame3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9.60297px;
+    background-color: var(--cor-de-fundo-dos-players);
+}
+
+.frame1 {
+    width: 266.48px;
+    height: 498px;
+    left: 191px;
+    top: 66px;
+    padding: 38.4119px;
+    gap: 28.81px;
+}
+
+.frame1_cover {
+    width: 189.66px;
+    height: 189.66px;
+
+    border-radius: 6.00185px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame1_titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 9.6px;
+    width: 189.66px;
+    height: 52.6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame1_titulo {
+    width: 171px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.0074px;
+    line-height: 100%;
+    color: var(--cor-da-fonte);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame1_subtitulo {
+    width: 155px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2059px;
+    line-height: 100%;
+    color: var(--cor-da-fonte);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame1_controles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 50.42px;
+    width: 189.66px;
+    height: 28.81px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+path {
+    width: 27px;
+    height: 16.2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    fill: var(--cor-da-fonte);
+}
+
+.frame1_reproducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 9.6px;
+    width: 189.66px;
+    height: 38.6px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame1_barra-reproducao {
+    width: 189.66px;
+    height: 6px;
+    position: relative;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame1_barra-reproducao__retangulo11 {
+    position: absolute;
+    width: 165px;
+    height: 6px;
+    left: 0;
+    top: 0;
+    background: #D9D9D9;
+    opacity: 0.8;
+    border-radius: 9.60297px;
+}
+
+.frame1_barra-reproducao__retangulo10 {
+    position: absolute;
+    width: 189.66px;
+    height: 6px;
+    left: 0;
+    top: 0;
+    background: #D9D9D9;
+    opacity: 0.3;
+    border-radius: 9.60297px;
+}
+
+.frame1_relogio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 9.6px;
+    width: 189.66px;
+    height: 23px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame1_relogio__tempo-reproduzido {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 144.04px;
+    height: 23px;
+    opacity: 0.7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame1_tempo1 {
+    width: 36px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4045px;
+    line-height: 160%;
+    color: #C4C4CC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame_relogio__tempo-pra-acabar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 36px;
+    height: 23px;
+    opacity: 0.7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame1_tempo2 {
+    width: 36px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4045px;
+    line-height: 160%;
+    color: #C4C4CC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame2 {
+    width: 357.71px;
+    height: 266.68px;
+    left: 489.48px;
+    top: 66px;
+    padding: 28.8089px;
+    gap: 28.81px;
+}
+
+.frame3 {
+    width: 357.71px;
+    height: 199.26px;
+    left: 489.48px;
+    top: 364.68px;
+    padding: 28.8089px;
+    gap: 28.81px;
+}
